@@ -1,0 +1,50 @@
+body{
+	padding-top: 70px;
+	background:black;
+}
+
+.jumbotron{
+	color:#2ec350;
+}
+
+.navbar-inverse{
+	background:#2ec350;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #2ec350;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:#FFFFFF;
+}
+.navbar-inverse .navbar-brand{
+	color:#FFFFFF;
+}
+.thumbnail:hover {
+    position: relative;
+    transform: scale(1.4,1.4);
+    transition: all 1s ease-in-out;
+    z-index: 2;
+}
+
+.sign-up{
+	color: #f2f2f2;
+	font-weight: bold;
+	background-color: rgba(255, 127, 80, 0.982);
+	border: 1px solid black;
+	padding: 20px;
+	margin: 10px;
+	transition: all 250ms ease-in-out;
+	cursor: pointer;
+}
+
+.login{
+	color: #f2f2f2;
+	font-weight: bold;
+	background-color: rgba(255, 127, 80, 0.982);
+	border: 1px solid black;
+	padding: 20px;
+	margin: 10px;
+	transition: all 250ms ease-in-out;
+	cursor: pointer
+}
