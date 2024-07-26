@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.slideshow {
+    display: flex;
+    width: 100%;
+    animation: slide 10s infinite;
+}
+
+.slide {
+    width: 100%;
+    flex: 1 0 100%;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(0%); }
+    38% { transform: translateX(-100%); }
+    71% { transform: translateX(-100%); }
+    76% { transform: translateX(-200%); }
+    100% { transform: translateX(-200%); }
+}
